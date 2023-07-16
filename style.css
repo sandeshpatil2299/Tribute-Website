@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Open+Sans:wght@300;400;600;800&display=swap');
+
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.main
+{
+   border: 10px solid rgb(27, 27, 29);
+   background-color: rgb(215, 236, 255);
+   min-height: 100vh;
+}
+
+.content
+{
+   max-width: 1400px;
+   margin: 0 auto;
+   background-color: rgb(222, 228, 234);
+   padding: 3rem;
+}
+
+.topSection
+{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 3rem;
+   align-items: center;
+}
+
+.image, img
+{
+   width: 300px;
+}
+
+img
+{
+   border-radius: 50%;
+}
+
+.topSection h1
+{
+   font-size: 70px;
+   font-weight: 700;
+   color: rgb(23, 23, 23);
+}
+
+.topSection h3
+{
+   font-size: 35px;
+   font-weight: 600;
+   text-align: end;
+   color: rgb(23, 23, 23);
+}
+
+.info
+{
+   margin-top: 2rem;
+}
+
+.info h2
+{
+   font-size: 40px;
+   font-weight: bold;
+   margin-bottom: 5px;
+   color: rgb(23, 23, 23);
+}
+
+.info p
+{
+   font-size: 25px;
+   text-align: justify;
+}
+
+.biographies
+{
+   margin-top: 2rem;
+   color: rgb(23, 23, 23);
+}
+
+.biographies h3
+{
+   font-size: 40px;
+   margin-bottom: 10px;
+}
+
+.biographies ul
+{
+   font-size: 25px;
+   list-style-position: inside;
+}
+
+.biographies ul li
+{
+   margin-bottom: 1rem;
+}
+
+.readMore
+{
+   margin-top: 3rem;
+}
+
+.readMore p
+{
+   font-size: 25px;
+   text-align: right;
+}
+
+.readMore a
+{
+   text-decoration: none;
+}
+
